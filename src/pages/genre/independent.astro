@@ -1,0 +1,15 @@
+
+---
+import Layout from '../../layouts/GenreLayout.astro'
+import ArtistCard from '../../components/ArtistCard.astro';
+---
+
+<Layout 
+        title='Indie'
+        genreDefinition='Embrace the independence and diversity of alternative music outside mainstream labels, spanning various styles.' 
+        genreImage='url(/img/covers/classical.jpg)'>
+    <p></p>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/artic-monkeys.png' artistName='Artic Monkeys' artistPage='/artists/artic-monkeys'/>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/bon-iver.png' artistName='Bon Iver' artistPage='/artists/bon-iver'/>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/the-strokes.png' artistName='The Strokes' artistPage='/artists/the-strokes'/>
+</Layout>

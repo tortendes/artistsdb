@@ -1,0 +1,15 @@
+
+---
+import Layout from '../../layouts/GenreLayout.astro'
+import ArtistCard from '../../components/ArtistCard.astro';
+---
+
+<Layout 
+        title='Classical'
+        genreDefinition='Witness the grandeur of orchestral compositions and timeless masterpieces that have shaped the history of music.' 
+        genreImage='url(/img/covers/classical.jpg)'>
+    <p></p>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/beethoven.png' artistName='Ludwig van Beethoven' artistPage='/artists/beethoven'/>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/mozart.png' artistName='Wolfgang Amadeus Mozart' artistPage='/artists/mozart'/>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/bach.png' artistName='Johann Sebastian Bach' artistPage='/artists/bach'/>
+</Layout>

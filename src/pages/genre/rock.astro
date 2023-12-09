@@ -1,0 +1,11 @@
+---
+import Layout from '../../layouts/GenreLayout.astro'
+import ArtistCard from '../../components/ArtistCard.astro';
+---
+
+<Layout title='Rock', genreDefinition='Experience the power of guitar-driven music with strong rhythms, from classic rock legends to modern rock bands.' genreImage='url(/img/covers/rock.jpg)'>
+    <p></p>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/the-beetles.png' artistName='The Beatles' artistPage='/artists/beatles'/>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/queen.png' artistName='Queen' artistPage='/artists/queen'/>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/led-zeppelin.png' artistName='Led Zeppelin' artistPage='/artists/led-zeppelin'/>
+</Layout>

@@ -1,0 +1,17 @@
+
+<div class="genre-select">
+    <slot />
+</div>
+
+<style>
+    .genre-select {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    @media only screen and (max-width: 640px) {
+        .genre-select {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>

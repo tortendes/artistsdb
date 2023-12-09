@@ -1,0 +1,15 @@
+
+---
+import Layout from '../../layouts/GenreLayout.astro'
+import ArtistCard from '../../components/ArtistCard.astro';
+---
+
+<Layout 
+        title='Folk'
+        genreDefinition='Connect with acoustic guitars and cultural narratives, as folk music tells stories rooted in tradition.' 
+        genreImage='url(/img/covers/classical.jpg)'>
+    <p></p>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/bob-dylan.png' artistName='Bob Dylan' artistPage='/artists/bob-dylan'/>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/jodi-mitchell.png' artistName='Joni Mitchell' artistPage='/artists/joni-mitchell'/>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/simon-garfunkel.png' artistName='Simon & Garfunkel' artistPage='/artists/simon-and-garfunkel'/>
+</Layout>

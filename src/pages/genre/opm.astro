@@ -1,0 +1,15 @@
+
+---
+import Layout from '../../layouts/GenreLayout.astro'
+import ArtistCard from '../../components/ArtistCard.astro';
+---
+
+<Layout 
+        title='OPM (Original Pinoy Music)'
+        genreDefinition='OPM, or Original Pilipino Music, refers to Filipino music that is created, performed, and produced by Filipino artists. It encompasses a wide range of musical genres and styles, reflecting the diverse cultural influences in the Philippines.' 
+        genreImage='url(/img/covers/opm.png)'>
+    <p></p>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/regine.png' artistName='Regine Velasquez' artistPage='/artists/regine'/>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/ereaserheads.png' artistName='Ereaserheads' artistPage='/artists/ereaserheads'/>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/parokya-ni-edgar.png' artistName='Parokya Ni Edgar' artistPage='/artists/parokya-ni-edgar'/>
+</Layout>

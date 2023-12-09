@@ -1,0 +1,39 @@
+---
+    interface Props {
+        imageURL: string;
+        artistName: string;
+        artistPage: string;
+    }    
+
+    const { imageURL, artistName, artistPage } = Astro.props
+---
+
+
+<a href={artistPage} style="color: #fff; text-decoration: none;">
+    <div class="img__wrap">
+        <div class="genre-select-option">
+            <div style="display: flex; align-items: center; gap: 0.50em">
+                <img src={imageURL} width="48" height="48">
+                <span>{ artistName }</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle"><circle cx="12" cy="12" r="10"></circle><polyline points="12 16 16 12 12 8"></polyline><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+        </div>
+    </div>
+</a>
+
+<style>
+    .genre-select-option {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #111;
+        border: 2px solid #fffffc;
+        padding: 1.5em 1.75em;
+        text-decoration: none;
+    }
+    .genre-select-option span {
+        font-size: 2rem;
+        color: #fff;
+        text-decoration: none;
+    }
+</style>

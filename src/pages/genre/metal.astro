@@ -1,0 +1,15 @@
+
+---
+import Layout from '../../layouts/GenreLayout.astro'
+import ArtistCard from '../../components/ArtistCard.astro';
+---
+
+<Layout 
+        title='Metal'
+        genreDefinition='Brace yourself for intense guitars, powerful vocals, and intricate compositions that define the diverse world of metal.' 
+        genreImage='url(/img/covers/metal.webp)'>
+    <p></p>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/metallica.png' artistName='Mettalica' artistPage='/artists/mettalica'/>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/black-sabbath.png' artistName='Black Sabbath' artistPage='/artists/black-sabbath'/>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/iron-maiden.png' artistName='Iron Maiden' artistPage='/artists/iron-maiden'/>
+</Layout>

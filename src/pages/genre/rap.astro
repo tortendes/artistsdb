@@ -1,0 +1,15 @@
+
+---
+import Layout from '../../layouts/GenreLayout.astro'
+import ArtistCard from '../../components/ArtistCard.astro';
+---
+
+<Layout 
+        title='Rap'
+        genreDefinition='Explore the art of rhythmic speech and beats, where words become a powerful medium of expression.' 
+        genreImage='url(/img/covers/classical.jpg)'>
+    <p></p>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/nicki-minaj.png' artistName='Nicki Minaj' artistPage='/artists/nicki-minaj'/>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/doja-cat.png' artistName='Doja Cat' artistPage='/artists/doja-cat'/>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/lil-uzi.png' artistName='Lil Uzi Vert' artistPage='/artists/lil-uzi'/>
+</Layout>

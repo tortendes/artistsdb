@@ -1,0 +1,61 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import GenereSelect from '../components/GenereSelect.astro';
+import Genre from '../components/Genre.astro';
+---
+
+<Layout title="ArtistDB | Home">
+	<header class="main-header">
+		<h1>ArtistDB</h1>
+		<h3>Music megabase</h3>
+	</header>
+	<main>
+		<p class="text">Select a genre:</p>
+	</main>
+	<GenereSelect>
+		<Genre title="Rock" href="/genre/rock"/>
+		<Genre title="Hip-Hop" href="/genre/hiphop"/>
+		<Genre title="Country" href="/genre/country"/>
+		<Genre title="Electronic" href="/genre/electronic"/>
+		<Genre title="Classical" href="/genre/classical"/>
+		<Genre title="R&B" href="/genre/rnb"/>
+		<Genre title="Folk" href="/genre/folk"/>
+		<Genre title="Indie" href="/genre/independent"/>
+		<Genre title="Metal" href="/genre/metal"/>
+		<Genre title="Alternative" href="/genre/alternative"/>
+		<Genre title="Pop" href="/genre/pop"/>
+		<Genre title="Rap" href="/genre/rap"/>
+		<Genre title="OPM" href="/genre/opm"/>
+		<Genre title="Latin" href="/genre/latin"/>
+	</GenereSelect>
+</Layout>
+
+<style>
+main {
+	padding: 1em 0.75em
+}
+
+header.main-header {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 30dvh;
+	min-height: 30vh;
+	background-image: url('/header-image.png');
+	background-size: cover;
+	background-position: center;
+	padding: 1.25em 1em;
+}
+header.main-header h1 {
+	font-weight: 800;
+}
+header.main-header h3 {
+	font-weight: 500;
+}
+
+p.text {
+	font-size: 1.5rem;
+	font-weight: 200;
+}
+</style>

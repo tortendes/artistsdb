@@ -1,0 +1,15 @@
+
+---
+import Layout from '../../layouts/GenreLayout.astro'
+import ArtistCard from '../../components/ArtistCard.astro';
+---
+
+<Layout 
+        title='Hip-hop'
+        genreDefinition='Immerse yourself in the rhythm, rhymes, and beats of urban culture, where storytelling takes center stage.' 
+        genreImage='url(/img/covers/hip-hop.webp)'>
+    <p></p>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/azelia-banks.png' artistName='Azealia Banks' artistPage='/artists/azealia-banks'/>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/kendrick-lamar.png' artistName='Kendrick Lamar' artistPage='/artists/kendrick-lamar'/>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/drake.png' artistName='Drake' artistPage='/artists/drake'/>
+</Layout>

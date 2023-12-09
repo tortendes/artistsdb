@@ -1,0 +1,15 @@
+
+---
+import Layout from '../../layouts/GenreLayout.astro'
+import ArtistCard from '../../components/ArtistCard.astro';
+---
+
+<Layout 
+        title='Country'
+        genreDefinition='Take a journey through rural landscapes and storytelling lyrics, capturing the essence of life&rsquo;s joys and challenges.' 
+        genreImage='url(/img/covers/country.webp)'>
+    <p></p>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/johnny-cash.png' artistName='Johnny Cash' artistPage='/artists/johnny-cash'/>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/dolly-parton.png' artistName='Dolly Patron' artistPage='/artists/dolly-parton'/>
+    <ArtistCard imageURL='https://cdn.torten.lol/server/artistsdb/artists/willie-nelson.png' artistName='Willie Nelson' artistPage='/artists/willie-nelson'/>
+</Layout>
