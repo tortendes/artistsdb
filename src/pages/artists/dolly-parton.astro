@@ -4,16 +4,16 @@ import ArtistLayout from "../../layouts/ArtistLayout.astro";
 import SongItem from '../../components/SongItem.astro';
 
 const artistSongs = await getCollection('lyrics', ({ data }) => {
-    return data.artist.name == "Led Zeppelin"
+    return data.artist.name == "Dolly Parton"
 })
 ---
 
 <ArtistLayout 
-    artistName="Led Zeppelin"
-    artistDescription="A comedic rock band, Parokya ni Edgar is famous for their humorous and socially relevant songs, making them a staple in OPM."
-    artistCoverImage="url(https://cdn.torten.lol/server/artistsdb/covers/artist/led-zeppelin.jpg)"
-    artistSpotifyProfile="https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
-    monthlyPlays={17578747}>
+    artistName="Dolly Parton"
+    artistDescription="A country music legend, Dolly Parton is not only known for her powerful voice but also her songwriting and philanthropy."
+    artistCoverImage="url(https://cdn.torten.lol/server/artistsdb/covers/artist/dolly-parton.jpg)"
+    artistSpotifyProfile="https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU"
+    monthlyPlays={17700479}>
     <main>
         <p class="heading">Random Songs</p>
         <div>

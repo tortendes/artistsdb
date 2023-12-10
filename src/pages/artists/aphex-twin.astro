@@ -4,16 +4,16 @@ import ArtistLayout from "../../layouts/ArtistLayout.astro";
 import SongItem from '../../components/SongItem.astro';
 
 const artistSongs = await getCollection('lyrics', ({ data }) => {
-    return data.artist.name == "Led Zeppelin"
+    return data.artist.name == "Aphex Twin"
 })
 ---
 
 <ArtistLayout 
-    artistName="Led Zeppelin"
-    artistDescription="A comedic rock band, Parokya ni Edgar is famous for their humorous and socially relevant songs, making them a staple in OPM."
-    artistCoverImage="url(https://cdn.torten.lol/server/artistsdb/covers/artist/led-zeppelin.jpg)"
-    artistSpotifyProfile="https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
-    monthlyPlays={17578747}>
+    artistName="Aphex Twin"
+    artistDescription="An influential figure in electronic music, Aphex Twin (Richard D. James) is known for his innovative and experimental approach to electronic soundscapes.."
+    artistCoverImage="url(https://cdn.torten.lol/server/artistsdb/covers/artist/aphex-twin.jpg)"
+    artistSpotifyProfile="https://open.spotify.com/artist/6kBDZFXuLrZgHnvmPu9NsG"
+    monthlyPlays={3117735}>
     <main>
         <p class="heading">Random Songs</p>
         <div>

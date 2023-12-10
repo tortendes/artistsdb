@@ -4,16 +4,16 @@ import ArtistLayout from "../../layouts/ArtistLayout.astro";
 import SongItem from '../../components/SongItem.astro';
 
 const artistSongs = await getCollection('lyrics', ({ data }) => {
-    return data.artist.name == "Led Zeppelin"
+    return data.artist.name == "SOPHIE"
 })
 ---
 
 <ArtistLayout 
-    artistName="Led Zeppelin"
-    artistDescription="A comedic rock band, Parokya ni Edgar is famous for their humorous and socially relevant songs, making them a staple in OPM."
-    artistCoverImage="url(https://cdn.torten.lol/server/artistsdb/covers/artist/led-zeppelin.jpg)"
-    artistSpotifyProfile="https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
-    monthlyPlays={17578747}>
+    artistName="SOPHIE"
+    artistDescription="The late Scottish producer SOPHIE was known for pushing the boundaries of electronic music, particularly in the realm of experimental pop and avant-garde electronic sounds. Her innovative approach left a lasting impact on the electronic music scene."
+    artistCoverImage="url(https://cdn.torten.lol/server/artistsdb/covers/artist/sophie.jpg)"
+    artistSpotifyProfile="https://open.spotify.com/artist/5a2w2tgpLwv26BYJf2qYwu"
+    monthlyPlays={448528}>
     <main>
         <p class="heading">Random Songs</p>
         <div>

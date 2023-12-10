@@ -8,10 +8,10 @@
     length: '8:03'
     album:
         name: "Led Zeppelin IV (Deluxe Edition)"
-        imageURL: "https://static.wikia.nocookie.net/parokya-ni-edgar/images/7/7c/Khangkhungkherrnitz_album_cover.jpg/"
+        imageURL: "https://i.scdn.co/image/ab67616d00001e02c8a11e48c91a982d086afc69"
     listen:
         spotify: 'https://open.spotify.com/track/5CQ30WqJwcep0pYcV4AMNc'
-        ytMusic: 'https://music.youtube.com/watch?v=GRJqHELAA54&feature=gws_kp_track'
+        ytMusic: 'https://music.youtube.com/watch?v=iXQUu5Dti4g&feature=gws_kp_track'
 ---
 There's a lady who's sure
 

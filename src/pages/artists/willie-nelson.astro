@@ -4,16 +4,16 @@ import ArtistLayout from "../../layouts/ArtistLayout.astro";
 import SongItem from '../../components/SongItem.astro';
 
 const artistSongs = await getCollection('lyrics', ({ data }) => {
-    return data.artist.name == "Led Zeppelin"
+    return data.artist.name == "Willie Nelson"
 })
 ---
 
 <ArtistLayout 
-    artistName="Led Zeppelin"
-    artistDescription="A comedic rock band, Parokya ni Edgar is famous for their humorous and socially relevant songs, making them a staple in OPM."
-    artistCoverImage="url(https://cdn.torten.lol/server/artistsdb/covers/artist/led-zeppelin.jpg)"
-    artistSpotifyProfile="https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
-    monthlyPlays={17578747}>
+    artistName="Willie Nelson"
+    artistDescription="With a unique voice and an outlaw image, Willie Nelson has had a lasting impact on country music with hits like &quot;On the Road Again.&quot;"
+    artistCoverImage="url(https://cdn.torten.lol/server/artistsdb/covers/artist/willie-nelson.jpg)"
+    artistSpotifyProfile="https://open.spotify.com/artist/5W5bDNCqJ1jbCgTxDD0Cb3"
+    monthlyPlays={7247432}>
     <main>
         <p class="heading">Random Songs</p>
         <div>

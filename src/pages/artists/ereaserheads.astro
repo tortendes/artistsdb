@@ -1,19 +1,20 @@
+
 ---
 import { getCollection } from 'astro:content'
 import ArtistLayout from "../../layouts/ArtistLayout.astro";
 import SongItem from '../../components/SongItem.astro';
 
 const artistSongs = await getCollection('lyrics', ({ data }) => {
-    return data.artist.name == "Led Zeppelin"
+    return data.artist.name == "Eraserheads"
 })
 ---
 
 <ArtistLayout 
-    artistName="Led Zeppelin"
-    artistDescription="A comedic rock band, Parokya ni Edgar is famous for their humorous and socially relevant songs, making them a staple in OPM."
-    artistCoverImage="url(https://cdn.torten.lol/server/artistsdb/covers/artist/led-zeppelin.jpg)"
-    artistSpotifyProfile="https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
-    monthlyPlays={17578747}>
+    artistName="Eraserheads"
+    artistDescription="A legendary rock band, Eraserheads is often regarded as one of the most influential and successful OPM acts, contributing to the Philippine music scene in the 1990s."
+    artistCoverImage="url(https://cdn.torten.lol/server/artistsdb/covers/artist/eraserheads.jpg)"
+    artistSpotifyProfile="https://open.spotify.com/artist/7374lH6kwx9uQATYQ9H3Cp"
+monthlyPlays={2816132}>
     <main>
         <p class="heading">Random Songs</p>
         <div>

@@ -4,38 +4,38 @@
         name: "Regine Velasquez"
         imageURL: 'https://cdn.torten.lol/server/artistsdb/artists/regine.png'
         link: '/artists/regine'
-    releaseDate: '1999-01-01T00:00:00Z'
-    length: '4:08'
+    releaseDate: '1989-01-01T00:00:00Z'
+    length: '3:25'
     album:
-        name: "R2k"
-        imageURL: "https://i.scdn.co/image/ab67616d00001e02d5f42320883e1340ee15a909"
+        name: "Nineteen '90"
+        imageURL: "https://i.scdn.co/image/ab67616d00001e02dd9b03a7e08689dca3da1e7c"
     listen:
         spotify: 'https://open.spotify.com/track/5F1mYaDicAzUrQz0aiqljr'
-        ytMusic: 'https://music.youtube.com/watch?v=GRJqHELAA54&feature=gws_kp_track'
+        ytMusic: 'https://music.youtube.com/watch?v=150-Bm5Hz5c&feature=gws_kp_track'
 ---
-Narito ako umiibig
-Laging tulala at ligalig
-Heto na naman at halos 'di mapakali
-Sa damdamin na pinakamimithi
-Narito ako na lagi nang nakatingin
-Sa mga ulap at bituin
-
-Narito ako umaawit
-Ng mga kundimang kay tamis
-Napakataas lumilipad itong isip
-Kalayaan ko aking inaawit
-
-Narito ako na lagi nang nakatingin
-Sa mga ulap at bituin
-Puso't isip ko
-Ay iisa ang hiwatig
-Narito akong umiibig
-
-May kutob akong pumipintig
-Heto na sa wakas ang pag-ibig
-
-Narito ako na lagi nang nakatingin
-Sa mga ulap at bituin
-Puso't isip ko
-Ay iisa ang hiwatig
-Narito akong umiibig
+<p>Narito ako umiibig</p>
+<p>Laging tulala at ligalig</p>
+<p>Heto na naman at halos 'di mapakali</p>
+<p>Sa damdamin na pinakamimithi</p>
+<p>Narito ako na lagi nang nakatingin</p>
+<p>Sa mga ulap at bituin</p>
+<br>
+<p>Narito ako umaawit</p>
+<p>Ng mga kundimang kay tamis</p>
+<p>Napakataas lumilipad itong isip</p>
+<p>Kalayaan ko aking inaawit</p>
+<br>
+<p>Narito ako na lagi nang nakatingin</p>
+<p>Sa mga ulap at bituin</p>
+<p>Puso't isip ko</p>
+<p>Ay iisa ang hiwatig</p>
+<p>Narito akong umiibig</p>
+<br>
+<p>May kutob akong pumipintig</p>
+<p>Heto na sa wakas ang pag-ibig</p>
+<br>
+<p>Narito ako na lagi nang nakatingin</p>
+<p>Sa mga ulap at bituin</p>
+<p>Puso't isip ko</p>
+<p>Ay iisa ang hiwatig</p>
+<p>Narito akong umiibig</p>

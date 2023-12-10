@@ -4,16 +4,16 @@ import ArtistLayout from "../../layouts/ArtistLayout.astro";
 import SongItem from '../../components/SongItem.astro';
 
 const artistSongs = await getCollection('lyrics', ({ data }) => {
-    return data.artist.name == "Led Zeppelin"
+    return data.artist.name == "Artic Monkeys"
 })
 ---
 
 <ArtistLayout 
-    artistName="Led Zeppelin"
-    artistDescription="A comedic rock band, Parokya ni Edgar is famous for their humorous and socially relevant songs, making them a staple in OPM."
-    artistCoverImage="url(https://cdn.torten.lol/server/artistsdb/covers/artist/led-zeppelin.jpg)"
-    artistSpotifyProfile="https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
-    monthlyPlays={17578747}>
+    artistName="Artic Monkeys"
+    artistDescription="This British indie rock band gained widespread acclaim for their energetic sound and clever lyrics, making them a prominent figure in the indie music scene."
+    artistCoverImage="url(https://cdn.torten.lol/server/artistsdb/covers/artist/artic-monkeys.jpg)"
+    artistSpotifyProfile="https://open.spotify.com/artist/7Ln80lUS6He07XvHI8qqHH"
+    monthlyPlays={49679429}>
     <main>
         <p class="heading">Random Songs</p>
         <div>

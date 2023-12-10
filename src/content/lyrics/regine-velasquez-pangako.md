@@ -3,7 +3,7 @@
     artist: 
         name: "Regine Velasquez"
         imageURL: 'https://cdn.torten.lol/server/artistsdb/artists/regine.png'
-        link: '/artists/parokya-ni-edgar'
+        link: '/artists/regine'
     releaseDate: '2006-01-01T00:00:00Z'
     length: '4:34'
     album:
