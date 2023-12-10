@@ -29,6 +29,13 @@ import Genre from '../components/Genre.astro';
 		<Genre title="OPM" href="/genre/opm"/>
 		<Genre title="Latin" href="/genre/latin"/>
 	</GenereSelect>
+	<div class="more">
+		<p>More links here</p>
+		<div class="links">
+			<a href="/about">About</a>
+			<a href="https://worx.torten.xyz">tortenworx</a>
+		</div>
+	</div>
 </Layout>
 
 <style>
@@ -57,5 +64,17 @@ header.main-header h3 {
 p.text {
 	font-size: 1.5rem;
 	font-weight: 200;
+}
+
+.more {
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.more a {
+	color: #777;
 }
 </style>

@@ -1,0 +1,45 @@
+---
+import { getCollection } from 'astro:content'
+import ArtistLayout from "../../layouts/ArtistLayout.astro";
+import SongItem from '../../components/SongItem.astro';
+
+const artistSongs = await getCollection('lyrics', ({ data }) => {
+    return data.artist.name == "Sewerslvt"
+})
+---
+
+<ArtistLayout 
+    artistName="Sewerslvt"
+    artistDescription="A producer in the electronic and experimental music scenes, Sewerslvt explores genres like vaporwave and noise, contributing to the alternative music landscape with a distinct and underground sound."
+    artistCoverImage="url(https://cdn.torten.lol/server/artistsdb/covers/artist/sewerslvt.png)"
+    artistSpotifyProfile="https://open.spotify.com/artist/30F64wQIHvLiFTGaNZ73nU"
+    monthlyPlays={450649}>
+    <main>
+        <p class="heading">Random Songs</p>
+        <div>
+            {artistSongs.map(entry => (
+                <ul>
+                    <a href={`/song/${entry.slug}`} style="text-decoration: none; color: currentColor">
+                        <SongItem
+                            title={entry.data.songTitle}
+                            albumImageURL={entry.data.album.imageURL}
+                            albumTitle={entry.data.album.name}
+                            runningTime={entry.data.length}
+                            releaseDate={entry.data.releaseDate}
+                            />
+                    </a>
+                </ul>
+                )
+            )}
+        </div>
+    </main>
+</ArtistLayout>
+
+
+<style>
+    p.heading {
+        margin: 0.75em 1.25em;
+        font-weight: 600;
+        font-size: 1.25rem;
+    }
+</style>

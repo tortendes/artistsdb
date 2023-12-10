@@ -1,0 +1,45 @@
+---
+import { getCollection } from 'astro:content'
+import ArtistLayout from "../../layouts/ArtistLayout.astro";
+import SongItem from '../../components/SongItem.astro';
+
+const artistSongs = await getCollection('lyrics', ({ data }) => {
+    return data.artist.name == "Ariana Grande"
+})
+---
+
+<ArtistLayout 
+    artistName="Ariana Grande"
+    artistDescription="A powerhouse vocalist, Ariana Grande has consistently dominated the pop charts with her impressive vocal range and catchy pop anthems, solidifying her status as one of the leading pop stars of the current era."
+    artistCoverImage="url(https://cdn.torten.lol/server/artistsdb/covers/artist/ariana-grande.jpg)"
+    artistSpotifyProfile="https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+    monthlyPlays={81800382}>
+    <main>
+        <p class="heading">Random Songs</p>
+        <div>
+            {artistSongs.map(entry => (
+                <ul>
+                    <a href={`/song/${entry.slug}`} style="text-decoration: none; color: currentColor">
+                        <SongItem
+                            title={entry.data.songTitle}
+                            albumImageURL={entry.data.album.imageURL}
+                            albumTitle={entry.data.album.name}
+                            runningTime={entry.data.length}
+                            releaseDate={entry.data.releaseDate}
+                            />
+                    </a>
+                </ul>
+                )
+            )}
+        </div>
+    </main>
+</ArtistLayout>
+
+
+<style>
+    p.heading {
+        margin: 0.75em 1.25em;
+        font-weight: 600;
+        font-size: 1.25rem;
+    }
+</style>

@@ -1,0 +1,87 @@
+---
+    import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="About ArtistDB">
+	<header class="main-header">
+		<h1>ArtistDB</h1>
+		<h3>About our excellent team</h3>
+	</header>
+    <main>
+        <h1>What is ArtistDB</h1>
+        <p>ArtistDB is a reporsitory of artist metadata and lyrics, it's built using <a href="//astro.build" target="_blank">Astro.build</a>. This project is a tortenworx project.</p>
+        <h1>Our Team</h1>
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="/team/vicente.jpg" alt="Portrait of Ervic Vicente" width="82" height="82">
+                <h3>Ervic Vicente</h3>
+                <h5>Team Leader</h5>
+            </div>
+            <div class="team-member">
+                <img src="/team/coroneza.jpg" alt="Selfie of Eiarhon Coroneza" width="82" height="82">
+                <h3>Eiarhon Coroneza</h3>
+                <h5>Data Analyst</h5>
+            </div>
+            <div class="team-member">
+                <img src="/team/pascual.jpg" alt="Selfie of Eugene Ace Pascual" width="82" height="82">
+                <h3>Eugene Ace Pascual</h3>
+                <h5>Content Writer and Editor</h5>
+            </div>
+            <div class="team-member">
+                <img src="/team/andulan.jpg" alt="Portrait of Jarelle Emmanuel Andulan" width="82" height="82">
+                <h3>Jarelle Emmanuel Andulan</h3>
+                <h5>Web Developet & Designer</h5>
+            </div>
+        </div>
+    </main>
+</Layout>
+
+
+<style>
+main {
+	padding: 1em 0.75em
+}
+
+.team-grid {
+    display: grid;
+    gap: 0.55em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-member h5 {
+    font-weight: 400;
+    color: #777;
+}
+
+header.main-header {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 30dvh;
+	min-height: 30vh;
+	background-image: url('/header-image.png');
+	background-size: cover;
+	background-position: center;
+	padding: 1.25em 1em;
+}
+header.main-header h1 {
+	font-weight: 800;
+}
+header.main-header h3 {
+	font-weight: 500;
+}
+
+p.text {
+	font-size: 1.5rem;
+	font-weight: 200;
+}
+</style>

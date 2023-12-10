@@ -1,0 +1,45 @@
+---
+import { getCollection } from 'astro:content'
+import ArtistLayout from "../../layouts/ArtistLayout.astro";
+import SongItem from '../../components/SongItem.astro';
+
+const artistSongs = await getCollection('lyrics', ({ data }) => {
+    return data.artist.name == "Slayyyter"
+})
+---
+
+<ArtistLayout 
+    artistName="Slayyyter"
+    artistDescription="With her energetic and bold take on pop and hyperpop, Slayyyter has gained attention for her catchy tunes and unapologetic style in the contemporary pop music scene."
+    artistCoverImage="url(https://cdn.torten.lol/server/artistsdb/covers/artist/slayyyter.jpg)"
+    artistSpotifyProfile="https://open.spotify.com/artist/4QM5QCHicznALtX885CnZC"
+    monthlyPlays={1090998}>
+    <main>
+        <p class="heading">Random Songs</p>
+        <div>
+            {artistSongs.map(entry => (
+                <ul>
+                    <a href={`/song/${entry.slug}`} style="text-decoration: none; color: currentColor">
+                        <SongItem
+                            title={entry.data.songTitle}
+                            albumImageURL={entry.data.album.imageURL}
+                            albumTitle={entry.data.album.name}
+                            runningTime={entry.data.length}
+                            releaseDate={entry.data.releaseDate}
+                            />
+                    </a>
+                </ul>
+                )
+            )}
+        </div>
+    </main>
+</ArtistLayout>
+
+
+<style>
+    p.heading {
+        margin: 0.75em 1.25em;
+        font-weight: 600;
+        font-size: 1.25rem;
+    }
+</style>

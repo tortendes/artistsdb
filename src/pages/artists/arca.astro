@@ -1,0 +1,45 @@
+---
+import { getCollection } from 'astro:content'
+import ArtistLayout from "../../layouts/ArtistLayout.astro";
+import SongItem from '../../components/SongItem.astro';
+
+const artistSongs = await getCollection('lyrics', ({ data }) => {
+    return data.artist.name == "ARCA"
+})
+---
+
+<ArtistLayout 
+    artistName="ARCA"
+    artistDescription="A Venezuelan electronic music producer and singer, Arca has contributed to the alternative and experimental music scenes, known for pushing boundaries with her innovative production and genre-blurring sound."
+    artistCoverImage="url(https://cdn.torten.lol/server/artistsdb/covers/artist/arca.jpg)"
+    artistSpotifyProfile="https://open.spotify.com/artist/4SQdUpG4f7UbkJG3cJ2Iyj"
+    monthlyPlays={801989}>
+    <main>
+        <p class="heading">Random Songs</p>
+        <div>
+            {artistSongs.map(entry => (
+                <ul>
+                    <a href={`/song/${entry.slug}`} style="text-decoration: none; color: currentColor">
+                        <SongItem
+                            title={entry.data.songTitle}
+                            albumImageURL={entry.data.album.imageURL}
+                            albumTitle={entry.data.album.name}
+                            runningTime={entry.data.length}
+                            releaseDate={entry.data.releaseDate}
+                            />
+                    </a>
+                </ul>
+                )
+            )}
+        </div>
+    </main>
+</ArtistLayout>
+
+
+<style>
+    p.heading {
+        margin: 0.75em 1.25em;
+        font-weight: 600;
+        font-size: 1.25rem;
+    }
+</style>

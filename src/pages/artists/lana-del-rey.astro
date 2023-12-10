@@ -1,0 +1,45 @@
+---
+import { getCollection } from 'astro:content'
+import ArtistLayout from "../../layouts/ArtistLayout.astro";
+import SongItem from '../../components/SongItem.astro';
+
+const artistSongs = await getCollection('lyrics', ({ data }) => {
+    return data.artist.name == "Lana Del Rey"
+})
+---
+
+<ArtistLayout 
+    artistName="Lana Del Rey"
+    artistDescription="With her dreamy and cinematic sound, Lana Del Rey has made a significant impact in alternative music, blending elements of pop, rock, and indie in her atmospheric compositions."
+    artistCoverImage="url(https://cdn.torten.lol/server/artistsdb/covers/artist/lana-del-rey.webp)"
+    artistSpotifyProfile="https://open.spotify.com/artist/00FQb4jTyendYWaN8pK0wa"
+    monthlyPlays={56975836}>
+    <main>
+        <p class="heading">Random Songs</p>
+        <div>
+            {artistSongs.map(entry => (
+                <ul>
+                    <a href={`/song/${entry.slug}`} style="text-decoration: none; color: currentColor">
+                        <SongItem
+                            title={entry.data.songTitle}
+                            albumImageURL={entry.data.album.imageURL}
+                            albumTitle={entry.data.album.name}
+                            runningTime={entry.data.length}
+                            releaseDate={entry.data.releaseDate}
+                            />
+                    </a>
+                </ul>
+                )
+            )}
+        </div>
+    </main>
+</ArtistLayout>
+
+
+<style>
+    p.heading {
+        margin: 0.75em 1.25em;
+        font-weight: 600;
+        font-size: 1.25rem;
+    }
+</style>

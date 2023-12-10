@@ -1,0 +1,45 @@
+---
+import { getCollection } from 'astro:content'
+import ArtistLayout from "../../layouts/ArtistLayout.astro";
+import SongItem from '../../components/SongItem.astro';
+
+const artistSongs = await getCollection('lyrics', ({ data }) => {
+    return data.artist.name == "Black Sabbath"
+})
+---
+
+<ArtistLayout 
+    artistName="Black Sabbath"
+    artistDescription="Considered pioneers of heavy metal, Black Sabbath, led by Ozzy Osbourne, laid the groundwork for the genre with their dark and heavy sound."
+    artistCoverImage="url(https://cdn.torten.lol/server/artistsdb/covers/artist/black-sabbath.webp)"
+    artistSpotifyProfile="https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
+    monthlyPlays={14158030}>
+    <main>
+        <p class="heading">Random Songs</p>
+        <div>
+            {artistSongs.map(entry => (
+                <ul>
+                    <a href={`/song/${entry.slug}`} style="text-decoration: none; color: currentColor">
+                        <SongItem
+                            title={entry.data.songTitle}
+                            albumImageURL={entry.data.album.imageURL}
+                            albumTitle={entry.data.album.name}
+                            runningTime={entry.data.length}
+                            releaseDate={entry.data.releaseDate}
+                            />
+                    </a>
+                </ul>
+                )
+            )}
+        </div>
+    </main>
+</ArtistLayout>
+
+
+<style>
+    p.heading {
+        margin: 0.75em 1.25em;
+        font-weight: 600;
+        font-size: 1.25rem;
+    }
+</style>
