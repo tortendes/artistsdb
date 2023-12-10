@@ -1,0 +1,68 @@
+---
+    import dayjs from 'dayjs'
+    interface Props {
+        title: string;
+        albumTitle: string;
+        albumImageURL: string;
+        runningTime: string;
+        releaseDate: string | Date;
+    }
+
+    const { title, albumTitle, albumImageURL, runningTime, releaseDate } = Astro.props
+---
+
+<li class="song-item">
+    <div class="duo">
+        <img src={albumImageURL} alt="" srcset="" class="album-image" width="84" height="84">
+        <div class="metadata">
+            <span class="song-title">{title}</span>
+            <span class="album-title">{albumTitle}</span>
+        </div>
+    </div>
+    <span class="release-date">{dayjs(releaseDate).format('MMMM YYYY')}</span>
+    <span class="running-time">{runningTime}</span>
+</li>
+
+<style>
+    li.song-item {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        background-color: #101010;
+        padding: 0.75em;
+    }
+    .release-date {
+        place-self: center;
+    }
+
+    .running-time {
+        place-self: center;
+    }
+
+    .duo {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .metadata {
+        display: flex; 
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .album-title {
+        color: #4e4e4e;
+    }
+
+    .album-image {
+        border-radius: 8px;
+    }
+
+    @media only screen and (max-width: 640px) {
+        .release-date, .running-time {
+            display: none;
+            visibility: none;
+            opacity: 0;
+        }
+    }
+</style>

@@ -1,20 +1,19 @@
-
 ---
 import { getCollection } from 'astro:content'
 import ArtistLayout from "../../layouts/ArtistLayout.astro";
 import SongItem from '../../components/SongItem.astro';
 
 const artistSongs = await getCollection('lyrics', ({ data }) => {
-    return data.artist.name == "Regine Velasquez"
+    return data.artist.name == "Parokya Ni Edgar"
 })
 ---
 
 <ArtistLayout 
-    artistName="Regine Velasquez-Alcasid"
-    artistDescription="Known as the &quot;Asia's Songbird&quot;, Regine Velasquez is a highly acclaimed singer in the Philippines, showcasing her vocal prowess in various OPM genres."
-    artistCoverImage="url(https://cdn.torten.lol/server/artistsdb/covers/artist/reginee.jpg)"
-    artistSpotifyProfile="https://open.spotify.com/artist/3wNylAjJX1PiCpMKx8Lrfp"
-    monthlyPlays={1168702}>
+    artistName="Parokya Ni Edgar"
+    artistDescription="A comedic rock band, Parokya ni Edgar is famous for their humorous and socially relevant songs, making them a staple in OPM."
+    artistCoverImage="url(https://cdn.torten.lol/server/artistsdb/covers/artist/parokya-ni-edgar.webp)"
+    artistSpotifyProfile="https://open.spotify.com/artist/2XHTklRsNMOOQT56Zm3WS4"
+    monthlyPlays={3307053}>
     <main>
         <p class="heading">Random Songs</p>
         <div>
@@ -35,6 +34,7 @@ const artistSongs = await getCollection('lyrics', ({ data }) => {
         </div>
     </main>
 </ArtistLayout>
+
 
 <style>
     p.heading {

@@ -1,0 +1,51 @@
+---
+    import type { GetStaticPaths } from "astro";
+
+    import { getEntry, getCollection } from 'astro:content'
+    import SongLayout from '../../layouts/SongLayout.astro'
+    const { songTitle, album, artist, releaseDate, listen } = Astro.props
+    const { slug } = Astro.params
+
+    const song = await getEntry('lyrics', slug)
+
+    if (song === undefined) {
+        return Astro.redirect('not-found')
+    }
+
+    export const getStaticPaths = (async () => {
+        const lyrics = await getCollection('lyrics')
+        return lyrics.map(song => {
+            return {
+                params: { slug: `${song.slug}` },
+                props: song.data
+            }
+        });
+    }) satisfies GetStaticPaths;
+
+    const { Content } = await song.render()
+---
+
+<SongLayout songTitle={songTitle} albumCoverImage={album.imageURL} songArtist={artist.name} songArtistImage={artist.imageURL} songArtistLink={artist.link} songAlbumName={album.name} releaseDate={releaseDate} listen={listen}>
+    <div class="lyrics">
+        <h2>Song Lyrics</h2>
+        <Content />
+    </div>
+</SongLayout>
+
+<style>
+    div.lyrics {
+        padding: 1.25em 2em;
+    }
+
+    div.lyrics h2 {
+        font-weight: 600;
+        font-size: 1.75rem;
+        margin-bottom: 0.75em;
+    }
+
+    @media only screen and (max-width: 640px) {
+        div.lyrics {
+            padding: 0.75em 1.25em;
+        }
+    }
+</style>
