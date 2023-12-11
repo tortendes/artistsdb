@@ -25,104 +25,106 @@
     <p>This song contains explicit content. Reader's disgresion is advised.</p>
 </div>
 
-<p>I got, I got, I got, I got</p>
-<p>Loyalty, got royalty</p>
-<p>Inside my DNA</p>
-<p>Cocaine quarter piece, got war and peace</p>
-<p>Inside my DNA</p>
-<p>I got power, poison, pain and joy</p>
-<p>Inside my DNA</p>
-<p>I got hustle, though, ambition, flow</p>
-<p>Inside my DNA</p>
+<p>Alls my life I has to fight, nigga</p>
+<p>Alls my life I</p>
+<p>Hard times like, yah!</p>
+<p>Bad trips like, yah!</p>
+<p>Nazareth, I'm fucked up</p>
+<p>Homie, you fucked up</p>
+<p>But if God got us then we gon' be alright</p>
 <br>
-<p>I was born like this, since one like this, immaculate conception</p>
-<p>I transform like this, perform like this, was Yeshua's new weapon</p>
-<p>I don't contemplate, I meditate, then off your fucking head</p>
-<p>This that put-the-kids-to-bed, this that</p>
+<p>Nigga, we gon' be alright</p>
+<p>Nigga, we gon' be alright</p>
+<p>We gon' be alright</p>
+<p>Do you hear me, do you feel me? We gon' be alright</p>
+<p>Nigga, we gon' be alright</p>
+<p>Huh? We gon' be alright</p>
+<p>Nigga, we gon' be alright</p>
+<p>Do you hear me, do you feel me? We gon' be alright</p>
 <br>
-<p>I got, I got, I got, I got</p>
-<p>Realness, I just kill shit</p>
-<p>'Cause it's in my DNA</p>
-<p>I got millions, I got riches</p>
-<p>Buildin' in my DNA</p>
-<p>I got dark, I got evil, that rot</p>
-<p>Inside my DNA</p>
-<p>I got off, I got troublesome heart</p>
-<p>Inside my DNA</p>
+<p>Uh, and when I wake up</p>
+<p>I recognize you're lookin' at me for the pay cut</p>
+<p>But homicide be looking at you from the face down</p>
+<p>What MAC-11 even boom with the bass down</p>
+<p>Schemin'! And let me tell you bout my life</p>
+<p>Painkillers only put me in the twilight</p>
+<p>Where pretty pussy and Benjamin is the highlight</p>
+<p>Now tell my mama I love her but this what I like</p>
+<p>Lord knows, twenty of 'em in my Chevy</p>
+<p>Tell 'em all to come and get me, reapin' everything I sow</p>
+<p>So my karma come in heaven, no preliminary hearings on my record</p>
+<p>I'm a motherfucking gangster in silence for the record, uh</p>
+<p>Tell the world I know it's too late</p>
+<p>Boys and girls, I think I've gone cray</p>
+<p>Drown inside my vices all day</p>
+<p>Won't you please believe when I say</p>
 <br>
-<p>I just win again, then win again like Wimbledon, I serve</p>
-<p>Yeah, that's him again, the sound that engine in is like a bird</p>
-<p>You see fireworks and Corvette tire skrrt the boulevard</p>
-<p>I know how you work, I know just who you are</p>
-<p>See, you's a, you's a, you's a bitch</p>
+<p>Wouldn't you know</p>
+<p>We been hurt, been down before, nigga</p>
+<p>When our pride was low</p>
+<p>Lookin' at the world like, "Where do we go, nigga?"</p>
+<p>And we hate po-po</p>
+<p>Wanna kill us dead in the street for sure, nigga</p>
+<p>I'm at the preacher's door</p>
+<p>My knees gettin' weak and my gun might blow</p>
+<p>But we gon' be alright</p>
 <br>
-<p>Your hormones prolly switch</p>
-<p>Inside your DNA</p>
-<p>Problem is, all that sucker shit</p>
-<p>Inside your DNA</p>
-<p>Daddy prolly snitched, heritage</p>
-<p>Inside your DNA</p>
-<p>Backbone don't exist</p>
-<p>Born onside a jellyfish, I gauge</p>
+<p>Nigga, we gon' be alright</p>
+<p>Nigga, we gon' be alright</p>
+<p>We gon' be alright</p>
+<p>Do you hear me, do you feel me? We gon' be alright</p>
+<p>Nigga, we gon' be alright</p>
+<p>Huh? We gon' be alright</p>
+<p>Nigga, we gon' be alright</p>
+<p>Do you hear me, do you feel me? We gon' be alright</p>
 <br>
-<p>See, my pedigree most definitely don't tolerate the front</p>
-<p>Shit I've been through prolly offend you</p>
-<p>This is Paula's oldest son</p>
-<p>I know murder, conviction</p>
-<p>Burners, boosters, burglars, ballers, dead, redemption</p>
-<p>Scholars, fathers dead with kids</p>
-<p>And I wish I was fed forgiveness</p>
-<p>Yeah, yeah, yeah, yeah, soldier's DNA</p>
-<p>Born inside the beast</p>
-<p>My expertise checked out in second grade</p>
-<p>When I was nine, on cell, motel, we didn't have nowhere to stay</p>
-<p>At twenty-nine, I've done so well, hit cartwheel in my estate</p>
-<p>And I'm gon' shine like I'm supposed to antisocial, extrovert</p>
-<p>And excellent mean the extra work</p>
-<p>And absent-ness what the fuck you heard</p>
-<p>And pessimists never struck my nerve</p>
-<p>And that's a riff, gonna plead this case</p>
-<p>The reason my power's here on earth</p>
-<p>Salute the truth, when the prophet say</p>
+<p>What you want you, a house? You, a car?</p>
+<p>40 acres and a mule? A piano, a guitar?</p>
+<p>Anything, see my name is Lucy, I'm your dog</p>
+<p>Motherfucker, you can live at the mall</p>
+<p>I can see the evil, I can tell it I know when it's illegal</p>
+<p>I don't think about it, I deposit every other zero</p>
+<p>Thinkin' of my partner put the candy, paint it on the regal</p>
+<p>Diggin' in my pocket ain't a profit, big enough to feed you</p>
+<p>Everyday my logic, get another dollar just to keep you</p>
+<p>In the presence of your chico ah!</p>
+<p>I don't talk about it, be about it, everyday I see cool</p>
+<p>If I got it then you know you got it, Heaven, I can reach you</p>
+<p>Pat Dawg, Pat Dawg, Pat Dawg, my dog, that's all</p>
+<p>Bick back and Chad, I trap the bag for y'all</p>
+<p>I rap, I black on track so rest assured</p>
+<p>My rights, my wrongs, I write 'til I'm right with God</p>
 <br>
-<p>I got loyalty, got royalty inside my DNA</p>
-<p>(This is why I say that Hip-Hop has done more damage)</p>
-<p>(To young African-Americans than racism in recent years)</p>
-<p>I live a better, fuck your life</p>
-<p>(Five, four, three, two, one) this is my heritage, all I'm inheritin'</p>
-<p>Money and power, the makin' of marriages</p>
+<p>Wouldn't you know</p>
+<p>We been hurt, been down before, nigga</p>
+<p>When our pride was low</p>
+<p>Lookin' at the world like, "Where do we go, nigga?"</p>
+<p>And we hate po-po</p>
+<p>Wanna kill us dead in the street for sure, nigga</p>
+<p>I'm at the preacher's door</p>
+<p>My knees gettin' weak and my gun might blow</p>
+<p>But we gon' be alright</p>
 <br>
-<p>Tell me somethin'</p>
-<p>You mothafuckas can't tell me nothin'</p>
-<p>I'd rather die than to listen to you</p>
-<p>My DNA not for imitation</p>
-<p>Your DNA an abomination</p>
-<p>This how it is when you're in the Matrix</p>
-<p>Dodgin' bullets, reapin' what you sow</p>
-<p>And stackin' up the footage, livin' on the go</p>
-<p>And sleepin' in a Villa</p>
-<p>Sippin' from a Grammy and walkin' in the buildin'</p>
-<p>Diamond in the ceilin', marble on the floors</p>
-<p>Beach inside the window, peekin' out the window</p>
-<p>Baby in the pool, Godfather goals, only Lord knows</p>
+<p>Nigga, we gon' be alright</p>
+<p>Nigga, we gon' be alright</p>
+<p>We gon' be alright</p>
+<p>Do you hear me, do you feel me? We gon' be alright</p>
+<p>Nigga, we gon' be alright</p>
+<p>Huh? We gon' be alright</p>
+<p>Nigga, we gon' be alright</p>
+<p>Do you hear me, do you feel me? We gon' be alright</p>
 <br>
-<p>I've been goin' hammer, dodgin' paparazzi, freakin' through the cameras</p>
-<p>Eat at Four Daughters, Brock wearin' sandals</p>
-<p>Yoga on a Monday, stretchin' to Nirvana</p>
-<p>Watchin' all the snakes, curvin' all the fakes</p>
-<p>Phone never on, I don't conversate</p>
-<p>I don't compromise, I just penetrate</p>
-<p>Sex, money, murder, these are the breaks</p>
-<p>These are the times, level number nine</p>
-<p>Look up in the sky, ten is on the way</p>
-<p>Sentence on the way, killings on the way</p>
-<p>Motherfucker, I got winners on the way</p>
+<p>I keep my head up high</p>
+<p>I cross my heart and hope to die</p>
+<p>Lovin' me is complicated</p>
+<p>Too afraid of a lot of changes</p>
+<p>I'm alright and you're a favorite</p>
+<p>Dark nights in my prayers</p>
 <br>
-<p>You ain't shit without a body on your belt</p>
-<p>You ain't shit without a ticket on your plate</p>
-<p>You ain't sick enough to pull it on yourself</p>
-<p>You ain't rich enough to hit the lot and skate</p>
-<p>Tell me when destruction gonna be my fate</p>
-<p>Gonna be your fate, gonna be our faith</p>
-<p>Peace to the world, let it rotate</p>
-<p>Sex, money, murder, our DNA</p>
+<p>I remembered you was conflicted</p>
+<p>Misusing your influence, sometimes I did the same</p>
+<p>Abusing my power full of resentment</p>
+<p>Resentment that turned into a deep depression</p>
+<p>Found myself screamin' in the hotel room</p>
+<p>I didn't wanna self destruct, the evils of Lucy was all around me</p>
+<p>So I went runnin' for answers</p>
